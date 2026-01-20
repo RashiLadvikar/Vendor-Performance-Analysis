@@ -5,57 +5,71 @@ Vendor Performance & Profitability Analysis for Retail and Wholesale Operations
 
 2. Executive Summary
 
-This project focuses on evaluating vendor performance to support data-driven decision-making in retail and wholesale operations. The analysis examines sales, purchasing, inventory turnover, and profitability metrics to identify operational inefficiencies, vendor dependency risks, and margin optimization opportunities. By combining exploratory data analysis, statistical validation, and interactive dashboarding, the project delivers actionable business insights that can directly improve profitability and supply chain efficiency.
+Evaluates vendor performance to support data-driven decision-making
+
+Analyzes sales, purchasing behavior, inventory turnover, and profitability
+
+Identifies operational inefficiencies and vendor dependency risks
+
+Highlights margin optimization opportunities
+
+Delivers actionable insights through EDA, statistical validation, and interactive dashboards
 
 3. Business Problem
 
-Efficient vendor and inventory management is critical to maintaining profitability in competitive retail and wholesale environments. Organizations often face challenges such as excessive reliance on a small group of vendors, slow-moving inventory, suboptimal pricing strategies, and inconsistent profit margins across suppliers.
+Efficient vendor and inventory management is essential for profitability in competitive retail and wholesale environments. Common challenges include vendor dependency, slow-moving inventory, inefficient pricing, and inconsistent profit margins.
 
-The primary business objectives of this analysis are to:
+Business objectives of this analysis include:
 
-Identify underperforming brands that require pricing or promotional adjustments
+Identifying underperforming brands requiring pricing or promotional adjustments
 
-Determine top vendors contributing to total sales and gross profit
+Determining top vendors contributing to total sales and gross profit
 
-Analyze the financial impact of bulk purchasing on unit cost
+Analyzing the financial impact of bulk purchasing on unit cost
 
-Evaluate inventory turnover to reduce holding costs
+Evaluating inventory turnover to reduce holding and storage costs
 
-Compare profitability between high-performing and low-performing vendors
+Comparing profitability between high-performing and low-performing vendors
 
 4. Methodology
 
-The project follows a structured analytics workflow to ensure accuracy and business relevance:
+The project follows a structured analytics workflow to ensure accuracy and business relevance.
 
 Data Preparation and Cleaning
 
-Removed transactions with zero sales, negative gross profit, and undefined or negative profit margins
+Removed transactions with zero sales
 
-Filtered out non-contributing inventory to focus on meaningful business activity
+Excluded negative gross profit records
+
+Filtered undefined or negative profit margins
+
+Eliminated non-contributing inventory records
 
 Exploratory Data Analysis (EDA)
 
-Summary statistics to understand distribution and variability
+Computed summary statistics to understand data distribution
 
-Outlier detection for pricing, freight cost, and stock turnover
+Identified outliers in pricing, freight cost, and stock turnover
 
-Correlation analysis to evaluate relationships between cost, sales, and profitability
+Performed correlation analysis to evaluate relationships between cost, sales, and profitability
 
 Vendor Segmentation
 
-Identification of top-performing vendors by sales and purchase contribution
+Identified top-performing vendors based on sales and purchase contribution
 
-Classification of low-performing vendors based on volume and profitability
+Classified low-performing vendors using volume and profitability metrics
 
-Analysis of high-margin versus high-volume vendor groups
+Compared high-margin vendors against high-volume vendors
 
 Statistical Validation
 
-Hypothesis testing to confirm significant differences in profit margins between vendor segments
+Conducted hypothesis testing to confirm profit margin differences between vendor segments
 
 Visualization and Reporting
 
-Development of an interactive Power BI dashboard to communicate insights clearly to stakeholders
+Designed an interactive Power BI dashboard for stakeholder-level insights
+
+Presented KPIs and trends in a clear, decision-oriented format
 
 5. Skills
 
@@ -74,34 +88,34 @@ Business Insight Generation and Recommendation Framing
 6. Results & Business Recommendations
 Key Results
 
-The top 10 vendors account for approximately 65.7% of total purchases, highlighting a dependency risk
+Top 10 vendors contribute approximately 65.7% of total purchases, indicating vendor dependency risk
 
-Bulk purchasing leads to an average unit cost reduction of approximately 72%
+Bulk purchasing reduces average unit cost by approximately 72%
 
 Unsold inventory represents a capital lock-in of approximately $2.71 million
 
-Several vendors exhibit high profit margins but low sales volume, indicating pricing or distribution inefficiencies
+Multiple vendors show high profit margins but low sales volume
 
-Inventory turnover shows weak correlation with profitability, challenging the assumption that faster turnover always leads to higher margins
+Inventory turnover demonstrates weak correlation with profitability
 
 Business Recommendations
 
 Diversify vendor partnerships to reduce supply chain and operational risk
 
-Re-evaluate pricing strategies for low-sales, high-margin vendors to improve volume without sacrificing profitability
+Re-evaluate pricing strategies for low-sales, high-margin vendors
 
-Leverage bulk purchasing strategically to balance cost savings with inventory efficiency
+Apply bulk purchasing selectively to balance cost savings and inventory efficiency
 
-Reduce slow-moving inventory through optimized purchase planning or clearance strategies
+Reduce slow-moving inventory through optimized purchasing and clearance strategies
 
-Enhance marketing and distribution efforts for underperforming vendors
+Strengthen marketing and distribution channels for underperforming vendors
 
 7. Next Steps
 
-Integrate real-time or near-real-time sales data for continuous vendor monitoring
+Integrate real-time or near-real-time sales data for continuous monitoring
 
 Extend analysis to include seasonality and demand forecasting
 
-Automate alerts for declining vendor performance
+Implement automated alerts for declining vendor performance
 
-Simulate alternative pricing strategies to optimize margin and volume balance
+Simulate alternative pricing strategies to optimize margin and sales volume
