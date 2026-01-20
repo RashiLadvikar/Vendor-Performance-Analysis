@@ -1,8 +1,7 @@
----
 
 # **Vendor Performance Analysis for Retail & Wholesale Optimization**
 
----
+
 
 ## **1. Executive Summary**
 
