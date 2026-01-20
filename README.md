@@ -1,121 +1,129 @@
-Vendor Performance & Profitability Analysis
-1. Title
+---
 
-Vendor Performance & Profitability Analysis for Retail and Wholesale Operations
+# **Vendor Performance Analysis for Retail & Wholesale Optimization**
 
-2. Executive Summary
+---
 
-Evaluates vendor performance to support data-driven decision-making
+## **1. Executive Summary**
 
-Analyzes sales, purchasing behavior, inventory turnover, and profitability
+This project presents a comprehensive **Vendor Performance Analysis** aimed at improving profitability, inventory efficiency, and vendor decision-making in the retail and wholesale domain. Using exploratory data analysis and statistical validation, the study identifies key drivers of sales, profit margins, inventory turnover, and vendor dependency.
 
-Identifies operational inefficiencies and vendor dependency risks
+The analysis uncovers actionable insights such as over-reliance on a small group of vendors, inefficiencies in inventory movement, and opportunities for pricing and promotional optimization. These insights are translated into clear business recommendations to support strategic and operational decisions.
 
-Highlights margin optimization opportunities
+---
 
-Delivers actionable insights through EDA, statistical validation, and interactive dashboards
+## **2. Business Problem**
 
-3. Business Problem
+Effective inventory and vendor management are critical to sustaining profitability in competitive retail and wholesale environments. Businesses often face challenges such as unsold inventory, inconsistent vendor performance, and margin erosion due to suboptimal pricing strategies.
 
-Efficient vendor and inventory management is essential for profitability in competitive retail and wholesale environments. Common challenges include vendor dependency, slow-moving inventory, inefficient pricing, and inconsistent profit margins.
+### **Key Business Objectives**
 
-Business objectives of this analysis include:
+* Identify underperforming brands requiring pricing or promotional adjustments
+* Determine top vendors contributing to sales and gross profit
+* Analyze the impact of bulk purchasing on unit cost reduction
+* Evaluate inventory turnover to minimize holding costs
+* Compare profitability patterns between high-performing and low-performing vendors
 
-Identifying underperforming brands requiring pricing or promotional adjustments
+---
 
-Determining top vendors contributing to total sales and gross profit
+## **3. Methodology**
 
-Analyzing the financial impact of bulk purchasing on unit cost
+A structured, data-driven approach was followed to ensure reliable and business-relevant insights.
 
-Evaluating inventory turnover to reduce holding and storage costs
+### **Data Understanding & Preparation**
 
-Comparing profitability between high-performing and low-performing vendors
+* Reviewed vendor-level sales, purchase, pricing, and inventory metrics
+* Identified missing values, zero sales records, and extreme outliers
+* Filtered data to focus on profitable and active transactions
 
-4. Methodology
+### **Exploratory Data Analysis (EDA)**
 
-The project follows a structured analytics workflow to ensure accuracy and business relevance.
+* Summary statistics to understand distribution and variability
+* Detection of negative profit, zero sales, and high-cost anomalies
+* Visualization of price, volume, freight cost, and turnover patterns
 
-Data Preparation and Cleaning
+### **Analytical Techniques**
 
-Removed transactions with zero sales
+* Correlation analysis to assess relationships between pricing, sales, and profit
+* Vendor segmentation based on sales contribution and profit margins
+* Confidence interval analysis and hypothesis testing for margin comparison
 
-Excluded negative gross profit records
+---
 
-Filtered undefined or negative profit margins
+## **4. Skills**
 
-Eliminated non-contributing inventory records
+### **Technical Skills**
 
-Exploratory Data Analysis (EDA)
+* Python (Pandas, NumPy, Matplotlib, Seaborn)
+* Exploratory Data Analysis (EDA)
+* Statistical Analysis & Hypothesis Testing
+* Data Cleaning & Feature Filtering
+* Business Metric Interpretation
 
-Computed summary statistics to understand data distribution
+### **Analytical & Business Skills**
 
-Identified outliers in pricing, freight cost, and stock turnover
+* Translating data insights into business recommendations
+* Identifying operational and financial inefficiencies
+* Vendor performance evaluation
+* Inventory and pricing strategy analysis
 
-Performed correlation analysis to evaluate relationships between cost, sales, and profitability
+---
 
-Vendor Segmentation
+## **5. Results & Business Recommendations**
 
-Identified top-performing vendors based on sales and purchase contribution
+### **Key Findings**
 
-Classified low-performing vendors using volume and profitability metrics
+* A small group of top vendors contributes ~65% of total purchases, indicating dependency risk
+* Several brands show high profit margins but low sales volume, suggesting pricing or visibility issues
+* Bulk purchasing reduces unit costs by approximately 72%, improving profitability
+* Significant capital is locked in slow-moving inventory, impacting cash flow
+* High-selling vendors operate on lower margins compared to low-volume vendors
 
-Compared high-margin vendors against high-volume vendors
+### **Business Recommendations**
 
-Statistical Validation
+* Re-evaluate pricing for low-sales, high-margin brands to drive volume growth
+* Diversify vendor partnerships to reduce supply chain risk
+* Leverage bulk purchasing strategically to maintain competitive pricing
+* Optimize slow-moving inventory through demand-based purchasing and clearance strategies
+* Improve marketing and distribution efforts for underperforming vendors
 
-Conducted hypothesis testing to confirm profit margin differences between vendor segments
+---
 
-Visualization and Reporting
+## **6. Statistical Validation**
 
-Designed an interactive Power BI dashboard for stakeholder-level insights
+To validate observed profitability differences, hypothesis testing was performed.
 
-Presented KPIs and trends in a clear, decision-oriented format
+### **Hypothesis Testing**
 
-5. Skills
+* **Null Hypothesis (H₀):** No significant difference in profit margins between top and low-performing vendors
+* **Alternative Hypothesis (H₁):** A significant difference exists between the two groups
 
-Data Cleaning and Preprocessing
+### **Result**
 
-Exploratory Data Analysis (EDA)
+* The null hypothesis was rejected, confirming statistically significant differences in profitability models
 
-Statistical Analysis and Hypothesis Testing
+### **Business Implication**
 
-KPI Definition and Business Metrics
+* High-margin vendors benefit from pricing strength but lack volume
+* High-volume vendors should focus on cost optimization to improve margins
 
-Data Visualization and Dashboard Design
+---
 
-Business Insight Generation and Recommendation Framing
+## **7. Next Steps**
 
-6. Results & Business Recommendations
-Key Results
+Future enhancements can further strengthen the analytical depth and business impact.
 
-Top 10 vendors contribute approximately 65.7% of total purchases, indicating vendor dependency risk
+### **Proposed Extensions**
 
-Bulk purchasing reduces average unit cost by approximately 72%
+* Incorporate time-series analysis for seasonal demand patterns
+* Build predictive models for vendor sales and inventory forecasting
+* Develop an interactive dashboard for real-time vendor monitoring
+* Integrate external data such as promotions, region, and customer demand
 
-Unsold inventory represents a capital lock-in of approximately $2.71 million
+---
 
-Multiple vendors show high profit margins but low sales volume
+### **About This Project**
 
-Inventory turnover demonstrates weak correlation with profitability
+This project demonstrates an end-to-end **data analytics workflow**, from problem understanding to business recommendation, designed to reflect industry-level thinking while showcasing strong analytical fundamentals suitable for an entry-level Data Analyst role.
 
-Business Recommendations
-
-Diversify vendor partnerships to reduce supply chain and operational risk
-
-Re-evaluate pricing strategies for low-sales, high-margin vendors
-
-Apply bulk purchasing selectively to balance cost savings and inventory efficiency
-
-Reduce slow-moving inventory through optimized purchasing and clearance strategies
-
-Strengthen marketing and distribution channels for underperforming vendors
-
-7. Next Steps
-
-Integrate real-time or near-real-time sales data for continuous monitoring
-
-Extend analysis to include seasonality and demand forecasting
-
-Implement automated alerts for declining vendor performance
-
-Simulate alternative pricing strategies to optimize margin and sales volume
+---
