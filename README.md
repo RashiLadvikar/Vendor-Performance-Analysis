@@ -9,7 +9,6 @@ This project presents a comprehensive **Vendor Performance Analysis** aimed at i
 
 The analysis uncovers actionable insights such as over-reliance on a small group of vendors, inefficiencies in inventory movement, and opportunities for pricing and promotional optimization. These insights are translated into clear business recommendations to support strategic and operational decisions.
 
----
 
 ## **2. Business Problem**
 
