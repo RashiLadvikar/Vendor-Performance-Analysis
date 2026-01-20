@@ -118,7 +118,4 @@ Future enhancements can further strengthen the analytical depth and business imp
 * Integrate external data such as promotions, region, and customer demand
 
 
-### **About This Project**
-
-This project demonstrates an end-to-end **data analytics workflow**, from problem understanding to business recommendation, designed to reflect industry-level thinking while showcasing strong analytical fundamentals suitable for an entry-level Data Analyst role.
 
