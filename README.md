@@ -1,5 +1,5 @@
 
-# **Vendor Performance Analysis for Retail & Wholesale Optimization**
+# **Vendor Performance & Profitability Analysis**
 
 
 
@@ -23,7 +23,7 @@ Effective inventory and vendor management are critical to sustaining profitabili
 * Evaluate inventory turnover to minimize holding costs
 * Compare profitability patterns between high-performing and low-performing vendors
 
----
+
 
 ## **3. Methodology**
 
@@ -47,7 +47,7 @@ A structured, data-driven approach was followed to ensure reliable and business-
 * Vendor segmentation based on sales contribution and profit margins
 * Confidence interval analysis and hypothesis testing for margin comparison
 
----
+
 
 ## **4. Skills**
 
@@ -66,7 +66,7 @@ A structured, data-driven approach was followed to ensure reliable and business-
 * Vendor performance evaluation
 * Inventory and pricing strategy analysis
 
----
+
 
 ## **5. Results & Business Recommendations**
 
@@ -86,7 +86,7 @@ A structured, data-driven approach was followed to ensure reliable and business-
 * Optimize slow-moving inventory through demand-based purchasing and clearance strategies
 * Improve marketing and distribution efforts for underperforming vendors
 
----
+
 
 ## **6. Statistical Validation**
 
@@ -106,7 +106,6 @@ To validate observed profitability differences, hypothesis testing was performed
 * High-margin vendors benefit from pricing strength but lack volume
 * High-volume vendors should focus on cost optimization to improve margins
 
----
 
 ## **7. Next Steps**
 
@@ -119,10 +118,8 @@ Future enhancements can further strengthen the analytical depth and business imp
 * Develop an interactive dashboard for real-time vendor monitoring
 * Integrate external data such as promotions, region, and customer demand
 
----
 
 ### **About This Project**
 
 This project demonstrates an end-to-end **data analytics workflow**, from problem understanding to business recommendation, designed to reflect industry-level thinking while showcasing strong analytical fundamentals suitable for an entry-level Data Analyst role.
 
----
